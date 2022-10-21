@@ -4,7 +4,7 @@ let age = prompt("Enter your age");
 if(age < 2){
     console.log("The person is a baby");
 }
-else if(age == 2){
+else if(age >= 2 && age < 4){
     console.log("The person is a toddler");
 }
 else if(age >= 4 && age <= 12){
