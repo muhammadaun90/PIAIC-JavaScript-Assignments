@@ -4,23 +4,23 @@
 
 let favorite_fruits = ["Banana", "Mango", "Apple"];
 let userFavoriteFruits = prompt("Enter your favorite fruit");
-let itemCheck = favorite_fruits.includes("Banana");
+let itemCheck = userFavoriteFruits.includes("Banana");
 if(itemCheck){
     console.log(`I really like ${favorite_fruits[0]}`);
 }
-let itemCheck2 = favorite_fruits.includes("Mango");
+let itemCheck2 = userFavoriteFruits.includes("Mango");
 if(itemCheck2){
     console.log(`I really like ${favorite_fruits[1]}`)
 }
-let itemCheck3 = favorite_fruits.includes("Apple");
+let itemCheck3 = userFavoriteFruits.includes("Apple");
 if(itemCheck3){
     console.log(`I really like ${favorite_fruits[2]}`)
 }
-let itemCheck4 = favorite_fruits.includes("Orange");
+let itemCheck4 = userFavoriteFruits.includes("Orange");
 if(itemCheck4){
-    console.log(`I really like ${favorite_fruits[3]}`)
+    console.log(`Not in the list ${favorite_fruits[3]}`)
 }
-let itemCheck5 = favorite_fruits.includes("Grapes");
+let itemCheck5 = userFavoriteFruits.includes("Grapes");
 if(itemCheck5){
-    console.log(`I really like ${favorite_fruits[4]}`)
+    console.log(`Not in the list ${favorite_fruits[4]}`)
 }
