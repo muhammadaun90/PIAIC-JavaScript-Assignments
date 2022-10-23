@@ -17,11 +17,11 @@ humanbeings ? console.log("Equality"): console.log("Inequality");
 
 let userName = "AUN";
 userName == userName.toLowerCase() ? console.log(true) : console.log(false);
-userName == userName.toUpperCase() ? console.log(true) : console.log(false);
+userName == userName.toUpperCase() ? console.log("Yes it's a upper case") : console.log("Yes it's not a upper case");
 
 
 let age = 18;
-age > 18 ? console.log("denied") : console.log("allowed");
+age < 18 ? console.log("allowed") : console.log("denied");
 
 let userAge = 25;
 userAge >= 30 ? console.log(true) : console.log(false);
