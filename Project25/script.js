@@ -5,8 +5,5 @@
 let alien_color = ['green', 'yellow', 'red'];
 let userInput = prompt("Enter alien color");
 if(userInput == 'green'){
-    console.log("The player just earned 5 points")
-}
-else{
-    
+    console.log("The player just earned 5 points");
 }
